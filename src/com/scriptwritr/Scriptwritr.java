@@ -9,6 +9,9 @@ import javafx.stage.StageStyle;
 
 import java.util.Objects;
 
+/**
+ * @author Carl Karama
+ */
 public class Scriptwritr extends Application {
 
     public static void main(String[] args) {
