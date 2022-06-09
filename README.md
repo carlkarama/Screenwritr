@@ -1,4 +1,5 @@
 # Screenwritr
+
 A screenwriting text editor to help filmmakers write screenplays
 
 ### Tasks to be implemented
@@ -6,6 +7,7 @@ A screenwriting text editor to help filmmakers write screenplays
 ---
 
 Basic features
+
 - New projects can be created and saved on writers file system
 - New projects can be loaded on the tab
 - Projects can be loaded and displayed on a separate tab
@@ -15,7 +17,8 @@ Basic features
 Advanced features (Maybe)
 
 Writers can view analytics like:
-- Scene count 
+
+- Scene count
 - Character count
 - Day/Night count
 - Total words count
