@@ -24,7 +24,7 @@ public class Scriptwritr extends Application {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/scriptwritr/view/Home.fxml")));
         stage.setTitle("Scriptwritr");
         stage.initStyle(StageStyle.UNDECORATED);
-        stage.setScene(new Scene(root,  600, 900));
+        stage.setScene(new Scene(root));
         stage.show();
     }
 }
