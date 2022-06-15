@@ -4,4 +4,5 @@
 
 AnchorPane {
     -fx-border-radius: 30;
+    -fx-background-color: white;
 }
