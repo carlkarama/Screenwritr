@@ -7,10 +7,13 @@
 
 <AnchorPane id="AnchorPane" prefHeight="919.0" prefWidth="979.0" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.HomeController">
    <children>
-      <TextArea id="TextArea" layoutX="70.0" layoutY="81.0" prefHeight="777.0" prefWidth="831.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
+      <TextArea id="TextArea" layoutX="70.0" layoutY="81.0" prefHeight="777.0" prefRowCount="100" prefWidth="831.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
          <font>
             <Font name="Courier New Bold" size="13.0" />
-         </font></TextArea>
+         </font>
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets></TextArea>
    </children>
    <opaqueInsets>
       <Insets />

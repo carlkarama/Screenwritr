@@ -10,7 +10,10 @@
       <TextArea id="TextArea" layoutX="70.0" layoutY="81.0" prefHeight="777.0" prefWidth="831.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
          <font>
             <Font name="Courier New Bold" size="13.0" />
-         </font></TextArea>
+         </font>
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets></TextArea>
    </children>
    <opaqueInsets>
       <Insets />
