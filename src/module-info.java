@@ -6,4 +6,5 @@ module Scriptwritr {
     opens com.scriptwritr;
     opens com.scriptwritr.view;
     opens com.scriptwritr.controller;
+    opens com.scriptwritr.model;
 }
