@@ -1,5 +1,5 @@
 TextArea {
-    /*-fx-text-alignment: right;*/
+    -fx-font-alignment: center;
 }
 
 TextArea:focused {

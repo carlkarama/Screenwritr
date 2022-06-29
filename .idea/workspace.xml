@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/textarea.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +134,7 @@
       <updated>1654763775538</updated>
       <workItem from="1654763778265" duration="2059000" />
       <workItem from="1654828807700" duration="7936000" />
+      <workItem from="1656496894148" duration="1043000" />
     </task>
     <servers />
   </component>
