@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/BuilderInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/TRANSITION.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/resource/style/anchorpane.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/resource/style/anchorpane.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/resource/style/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/resource/style/textarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/anchorpane.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/anchorpane.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/textarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/ActionLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/ActionLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/CastList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Dialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Dialogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/EndOfAct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Environment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/NewAct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/OutlineBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/PERIOD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Parenthetical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Parenthetical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Shot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Transition.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +115,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/scriptwritr/model" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -111,6 +125,11 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45354185" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/scriptwritr/model/" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
