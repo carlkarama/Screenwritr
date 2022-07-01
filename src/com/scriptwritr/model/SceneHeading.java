@@ -1,9 +1,33 @@
 package com.scriptwritr.model;
 
-/**
- * @apiNote Describes where the scene is taking place and the time of day
- * @implNote Format [ENVIRONMENT. Location - PERIOD] e.g [INT. HOME OFFICE - NIGHT]
- */
 public class SceneHeading {
 
+    private int sceneID;
+    private String sceneHeading;
+
+    public SceneHeading(int sceneID, String scene) {
+        this.sceneID = sceneID;
+        this.sceneHeading = scene;
+    }
+
+    public int getSceneID() {
+        return sceneID;
+    }
+
+    public void setSceneID(int sceneID) {
+        this.sceneID = sceneID;
+    }
+
+    public String getSceneHeading() {
+        return sceneHeading;
+    }
+
+    public void setSceneHeading(String sceneHeading) {
+        this.sceneHeading = sceneHeading;
+    }
+
+    @Override
+    public String toString() {
+        return sceneHeading;
+    }
 }
