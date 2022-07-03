@@ -1,4 +1,4 @@
-package com.scriptwritr.model;
+package com.scriptwritr.model.builder.abstractions;
 
 public abstract class AbstractProduct {
 

@@ -1,8 +1,10 @@
-package com.scriptwritr.model;
+package com.scriptwritr.model.builder.products;
+
+import com.scriptwritr.model.builder.abstractions.AbstractProduct;
 
 import java.util.LinkedList;
 
-public class SceneProduct extends AbstractProduct{
+public class SceneProduct extends AbstractProduct {
 
     private final LinkedList<String> sceneElements;
 

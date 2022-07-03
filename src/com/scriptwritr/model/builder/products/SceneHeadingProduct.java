@@ -1,4 +1,6 @@
-package com.scriptwritr.model;
+package com.scriptwritr.model.builder.products;
+
+import com.scriptwritr.model.builder.abstractions.AbstractProduct;
 
 import java.util.LinkedList;
 import java.util.List;

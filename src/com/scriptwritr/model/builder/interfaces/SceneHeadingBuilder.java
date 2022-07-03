@@ -1,4 +1,8 @@
-package com.scriptwritr.model;
+package com.scriptwritr.model.builder.interfaces;
+
+import com.scriptwritr.model.*;
+import com.scriptwritr.model.builder.builders.SceneHeading;
+import com.scriptwritr.model.builder.products.SceneHeadingProduct;
 
 /**
  * @author Carl Karama

@@ -2,32 +2,32 @@ package com.scriptwritr.model;
 
 public class Parenthetical {
 
-    private int parentheticalID;
-    private String parenthetical;
+    private int wrylieID;
+    private String wrylie;
 
-    public Parenthetical(int parentheticalID, String parenthetical) {
-        this.parentheticalID = parentheticalID;
-        this.parenthetical = parenthetical;
+    public Parenthetical(int wrylieID, String wrylie) {
+        this.wrylieID = wrylieID;
+        this.wrylie = wrylie;
     }
 
-    public String getParenthetical() {
-        return parenthetical;
+    public int getWrylieID() {
+        return wrylieID;
     }
 
-    public void setParenthetical(String parenthetical) {
-        this.parenthetical = parenthetical;
+    public void setWrylieID(int wrylieID) {
+        this.wrylieID = wrylieID;
     }
 
-    public int getParentheticalID() {
-        return parentheticalID;
+    public String getWrylie() {
+        return wrylie;
     }
 
-    public void setParentheticalID(int parentheticalID) {
-        this.parentheticalID = parentheticalID;
+    public void setWrylie(String wrylie) {
+        this.wrylie = wrylie;
     }
 
     @Override
     public String toString() {
-        return "\n" + "(" + parenthetical + ")";
+        return wrylie;
     }
 }

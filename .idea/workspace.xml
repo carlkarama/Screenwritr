@@ -5,36 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/AbstractProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Establishment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Flashback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Locality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingTimeModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/TimePeriod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/FirstName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/LastName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/builders/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/builders/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneCharacterBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/products/CharacterProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/AbstractProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/ActionLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Dialogue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Parenthetical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Parenthetical.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneBuilderInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Screenwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Screenwriter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/BuilderInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneBuilderInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/TRANSITION.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/AbstractProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/abstractions/AbstractProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/ActionLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Dialogue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Parenthetical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Parenthetical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneBuilderInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/builders/SceneHeading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneHeadingBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/products/SceneHeadingProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/products/SceneProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/directors/Screenwriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Transition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +63,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2AKgctjV7WA0iGaopnwr36IyYFX" />
   <component name="ProjectLevelVcsManager">
@@ -182,6 +200,7 @@
       <workItem from="1654828807700" duration="7936000" />
       <workItem from="1656496894148" duration="1043000" />
       <workItem from="1656685464346" duration="116000" />
+      <workItem from="1656849685342" duration="6071000" />
     </task>
     <servers />
   </component>

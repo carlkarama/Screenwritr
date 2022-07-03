@@ -1,4 +1,8 @@
-package com.scriptwritr.model;
+package com.scriptwritr.model.builder.builders;
+
+import com.scriptwritr.model.*;
+import com.scriptwritr.model.builder.interfaces.SceneHeadingBuilder;
+import com.scriptwritr.model.builder.products.SceneHeadingProduct;
 
 public class SceneHeading implements SceneHeadingBuilder {
 
