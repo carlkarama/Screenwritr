@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="830" prefWidth="717" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.HomeController">
+<AnchorPane id="AnchorPane" fx:id="homeAnchorPane" onMouseMoved="#observeMouseMoved" prefHeight="830" prefWidth="717" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.HomeController">
    <children>
-      <TextArea id="TextArea" layoutX="50" layoutY="33" prefHeight="777" prefWidth="618" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
+      <TextArea id="TextArea" fx:id="page" layoutX="50" layoutY="33" prefHeight="777" prefWidth="618" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
          <font>
             <Font name="Courier New Bold" size="13" />
          </font>

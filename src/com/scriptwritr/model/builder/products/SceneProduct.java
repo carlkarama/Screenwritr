@@ -1,12 +1,14 @@
-package com.scriptwritr.model;
+package com.scriptwritr.model.builder.products;
+
+import com.scriptwritr.model.builder.abstractions.AbstractProduct;
 
 import java.util.LinkedList;
 
-public class Product {
+public class SceneProduct extends AbstractProduct {
 
     private final LinkedList<String> sceneElements;
 
-    public Product() {
+    public SceneProduct() {
         sceneElements = new LinkedList<>();
     }
 
@@ -14,7 +16,8 @@ public class Product {
         sceneElements.addLast(element);
     }
 
-    public void displayScene() {
+    @Override
+    public void display() {
         for (String element : this.sceneElements) {
             System.out.println(element);
         }
