@@ -5,9 +5,9 @@ package com.scriptwritr.model;
  */
 public class Screenwriter {
 
-    private BuilderInterface sceneBuilder;
+    private SceneBuilderInterface sceneBuilder;
 
-    public void write(BuilderInterface sceneBuilder) {
+    public void write(SceneBuilderInterface sceneBuilder) {
         this.sceneBuilder = sceneBuilder;
     }
 }

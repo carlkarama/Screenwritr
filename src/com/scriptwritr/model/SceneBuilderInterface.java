@@ -6,7 +6,7 @@ package com.scriptwritr.model;
  * @author Carl Karama
  * @version Beta
  */
-public interface BuilderInterface {
+public interface SceneBuilderInterface {
 
     /**
      * Builds an Action Line. Outlines all the action in the story, as well as describe the locations, the characters,
@@ -21,11 +21,11 @@ public interface BuilderInterface {
      * Builds Scene Heading. Scene Headings are the general location headings that detail where we are in the script
      * — outside or inside (EXT. or INT.) and at which LOCATION — and whether the reader is to envision daylight
      * or darkness (DAY or NIGHT).
-     * @param sceneHeading
+     * @param sceneHeadingBuilder
      *        A single line containing the setting of character (INT/EXT), location, and time of day (DAY/NIGHT)
      * @return Scene
      */
-    public Scene buildSceneHeading(SceneHeading sceneHeading);
+    public Scene buildSceneHeading(SceneHeadingBuilder sceneHeadingBuilder);
 
     /**
      * Create character name
@@ -57,11 +57,11 @@ public interface BuilderInterface {
      *        Name of transition
      * @return Scene
      */
-    public Scene buildTransition(TRANSITION transition);
+    public Scene buildTransition(Transition transition);
 
     /**
      *
-     * @return Product
+     * @return SceneProduct
      */
-    public Product getScene();
+    public SceneProduct getScene();
 }

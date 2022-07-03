@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="" />
+    <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/AbstractProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Establishment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Flashback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Locality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingTimeModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/TimePeriod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/BuilderInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneBuilderInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/TRANSITION.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +48,7 @@
         <option value="FxmlFile" />
         <option value="CSS File" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -107,8 +139,18 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.scriptwritr.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/scriptwritr/model" />
       <recent name="$PROJECT_DIR$/src/com/scriptwritr/model/" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scriptwritr.model" />
     </key>
   </component>
   <component name="RunManager">

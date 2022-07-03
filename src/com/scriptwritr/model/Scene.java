@@ -1,50 +1,63 @@
 package com.scriptwritr.model;
 
 /**
- * The Product is the Scene.
+ * The SceneProduct is the Scene.
  */
-public class Scene implements BuilderInterface {
+public class Scene implements SceneBuilderInterface {
 
-    private final Product product = new Product();
+    private int sceneID;
+    private final SceneProduct sceneProduct = new SceneProduct();
+
+    public Scene(int sceneID) {
+        this.sceneID = sceneID;
+    }
+
+    public int getSceneID() {
+        return sceneID;
+    }
+
+    public void setSceneID(int sceneID) {
+        this.sceneID = sceneID;
+    }
 
     @Override
     public Scene buildActionLine(ActionLine actionLine) {
-        product.add(actionLine.getActionLine());
+        sceneProduct.add(actionLine.getActionLine());
         return this;
     }
 
     @Override
-    public Scene buildSceneHeading(SceneHeading sceneHeading) {
-        product.add(sceneHeading.getSceneHeading());
+    public Scene buildSceneHeading(SceneHeadingBuilder sceneHeadingBuilder) {
+        sceneProduct.add(sceneHeadingBuilder.getSceneHeading().toString());
         return this;
     }
 
     @Override
     public Scene buildCharacter(Character character) {
-        product.add(character.getCharacterFirstName());
+        sceneProduct.add(character.getCharacterFirstName());
         return this;
     }
 
     @Override
     public Scene buildParenthetical(Parenthetical parenthetical) {
-        product.add(parenthetical.getParenthetical());
+        sceneProduct.add(parenthetical.getParenthetical());
         return this;
     }
 
     @Override
     public Scene buildDialogue(Dialogue dialogue) {
-        product.add(dialogue.getDialogue());
+        sceneProduct.add(dialogue.getDialogue());
         return this;
     }
 
     @Override
-    public Scene buildTransition(TRANSITION transition) {
-        product.add(TRANSITION.valueOf(transition.name()).toString().toUpperCase());
+    public Scene buildTransition(Transition transition) {
+        sceneProduct.add(Transition.valueOf(transition.name()).toString().toUpperCase());
         return this;
     }
 
     @Override
-    public Product getScene() {
-        return product;
+    public SceneProduct getScene() {
+        return sceneProduct;
     }
 }
