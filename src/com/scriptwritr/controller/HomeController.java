@@ -4,19 +4,24 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.VBox;
 
 public class HomeController {
 
     /**
-     * A control that holds the writers scene
+     * The control that holds the writers text
      */
-    @FXML private TextArea page;
+    @FXML public TextArea sceneTextArea;
 
     /**
-     * Main layout that holds the page
+     * The layout that holds the text area
      */
-    @FXML private AnchorPane homeAnchorPane;
+    @FXML public VBox sceneVBox;
 
+    /**
+     * The scene that holds the layout
+     */
+    @FXML public AnchorPane sceneAnchorPane;
 
 
     public HomeController() {

@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="homeAnchorPane" onMouseMoved="#observeMouseMoved" prefHeight="830" prefWidth="717" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.HomeController">
+<AnchorPane id="AnchorPane" fx:id="sceneAnchorPane" prefHeight="935.0" prefWidth="845.0" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.HomeController">
    <children>
-      <TextArea id="TextArea" fx:id="page" layoutX="50" layoutY="33" prefHeight="777" prefWidth="618" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
-         <font>
-            <Font name="Courier New Bold" size="13" />
-         </font>
-         <opaqueInsets>
-            <Insets top="10.0" />
-         </opaqueInsets></TextArea>
+      <VBox id="VBox" fx:id="sceneVBox" layoutX="80.0" layoutY="73.0" prefHeight="789.0" prefWidth="686.0" styleClass="vboxscene" stylesheets="@../resource/style/vboxscene.css">
+         <children>
+            <TextArea id="TextArea" fx:id="sceneTextArea" prefHeight="791.0" prefWidth="686.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true">
+               <font>
+                  <Font name="Courier New Bold" size="13" />
+               </font>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+            </TextArea>
+         </children>
+      </VBox>
+      <ScrollBar fx:id="anchorPaneScrollBar" layoutX="824.0" layoutY="67.0" orientation="VERTICAL" prefHeight="801.0" prefWidth="16.0" style="-fx-background-color: white;" />
    </children>
    <opaqueInsets>
       <Insets />

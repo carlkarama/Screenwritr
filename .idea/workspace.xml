@@ -5,43 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/FirstName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/LastName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/builders/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/builders/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneCharacterBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/products/CharacterProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/vboxscene.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/AbstractProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/ActionLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Dialogue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Parenthetical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Parenthetical.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneBuilderInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Screenwriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Screenwriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Scene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Screenwriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/interfaces/SceneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/interfaces/SceneBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/interfaces/SceneCharacterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/interfaces/SceneCharacterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/interfaces/SceneHeadingBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/interfaces/SceneHeadingBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/AbstractProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/abstractions/AbstractProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/ActionLine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Dialogue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Parenthetical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Parenthetical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Scene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneBuilderInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/builders/SceneHeading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneHeadingBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneHeadingProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/products/SceneHeadingProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/SceneProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/products/SceneProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Screenwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/directors/Screenwriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/Transition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/directors/Screenwriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/directors/Screenwriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneHeadingBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/builder/interfaces/SceneHeadingBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/resource/style/textarea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +35,10 @@
       <list>
         <option value="module-info" />
         <option value="FxmlFile" />
-        <option value="CSS File" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -200,7 +182,8 @@
       <workItem from="1654828807700" duration="7936000" />
       <workItem from="1656496894148" duration="1043000" />
       <workItem from="1656685464346" duration="116000" />
-      <workItem from="1656849685342" duration="6071000" />
+      <workItem from="1656849685342" duration="10752000" />
+      <workItem from="1657005589666" duration="1944000" />
     </task>
     <servers />
   </component>
