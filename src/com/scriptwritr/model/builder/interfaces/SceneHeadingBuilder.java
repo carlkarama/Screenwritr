@@ -10,7 +10,7 @@ import com.scriptwritr.model.builder.products.SceneHeadingProduct;
 public interface SceneHeadingBuilder {
 
     /**
-     *
+     * @see Setting
      * @param setting
      *        An enum that defines whether the character is inside or outside or a combination of both
      * @return SceneHeading
@@ -18,7 +18,7 @@ public interface SceneHeadingBuilder {
     public SceneHeading buildSceneHeadingSetting(Setting setting);
 
     /**
-     *
+     * @see Location
      * @param location
      *        The scene's general location
      * @return SceneHeading
@@ -26,7 +26,7 @@ public interface SceneHeadingBuilder {
     public SceneHeading buildSceneHeadingLocation(Location location);
 
     /**
-     *
+     * @see Property
      * @param property
      *        An enum specifying the type of property in the scene heading
      * @return SceneHeading

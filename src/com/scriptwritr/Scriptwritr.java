@@ -6,6 +6,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -27,11 +28,18 @@ public class Scriptwritr extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/scriptwritr/view/Home.fxml")));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/scriptwritr/view/Home.fxml"));
+        Parent root = loader.load();
+        HomeController homeController = loader.getController();
+        Scene homeScene = new Scene(root);
         stage.setTitle("Scriptwritr");
         stage.initStyle(StageStyle.UNDECORATED);
-        stage.setScene(new Scene(root));
+        stage.setScene(homeScene);
         stage.show();
+
+        homeController.sceneTextArea.setOnKeyPressed(keyEvent -> {
+            System.out.println(keyEvent.getCode().toString());
+        });
 
         root.setOnMousePressed(event -> {
             xOffset = event.getSceneX();
