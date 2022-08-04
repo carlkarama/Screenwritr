@@ -1,6 +1,6 @@
 # Screenwritr
 
-A screenwriting text editor to help filmmakers write screenplays
+A screenwriting word processor to enable filmmakers write screenplays
 
 ### Tasks to be implemented
 
