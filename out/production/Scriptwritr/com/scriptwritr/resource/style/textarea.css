@@ -1,6 +1,6 @@
 TextArea {
     -fx-background-insets: 0;
-    -fx-background-color: transparent, yellow, transparent, yellow;
+    -fx-background-color: transparent, white, transparent, white;
 }
 
 TextArea .content {

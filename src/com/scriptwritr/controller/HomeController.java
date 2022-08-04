@@ -1,12 +1,17 @@
 package com.scriptwritr.controller;
 
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.ScrollBar;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 
-public class HomeController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class HomeController implements Initializable {
 
     /**
      * The control that holds the writers text
@@ -23,8 +28,10 @@ public class HomeController {
      */
     @FXML public AnchorPane sceneAnchorPane;
 
+    @FXML public ScrollBar anchorPaneScrollBar;
 
-    public HomeController() {
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
 
