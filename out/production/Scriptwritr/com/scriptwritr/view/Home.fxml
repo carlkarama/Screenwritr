@@ -7,13 +7,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="sceneAnchorPane" prefHeight="983.0" prefWidth="893.0" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.HomeController">
+<AnchorPane id="AnchorPane" fx:id="sceneAnchorPane" prefHeight="983.0" prefWidth="893.0" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.PageController">
    <children>
-      <ScrollPane layoutX="54.0" layoutY="89.0" prefHeight="798.0" prefWidth="791.0">
+      <ScrollPane fitToHeight="true" layoutX="54.0" layoutY="89.0" minViewportHeight="600.0" prefHeight="${sceneVBox.height}" prefWidth="791.0">
          <content>
-            <VBox id="VBox" fx:id="sceneVBox" alignment="CENTER" prefHeight="10000.0" prefWidth="798.0" spacing="20.0" styleClass="vboxscene" stylesheets="@../resource/style/vboxscene.css" VBox.vgrow="always">
+            <VBox id="VBox" fx:id="sceneVBox" alignment="CENTER" fillWidth="false" prefHeight="1200" prefWidth="798.0" spacing="20.0" styleClass="vboxscene" stylesheets="@../resource/style/vboxscene.css" VBox.vgrow="always">
                <children>
-                  <TextArea id="TextArea" fx:id="sceneTextArea" maxWidth="-Infinity" prefHeight="802.0" prefWidth="802.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true" VBox.vgrow="ALWAYS">
+                  <TextArea id="TextArea" fx:id="sceneTextArea" maxWidth="600" minHeight="800.0" minWidth="600.0" prefHeight="800" prefWidth="802.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true" VBox.vgrow="NEVER">
                      <font>
                         <Font name="Courier New Bold" size="13" />
                      </font>

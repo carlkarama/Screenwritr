@@ -1,25 +1,12 @@
 package com.scriptwritr;
 
-import com.scriptwritr.controller.HomeController;
+import com.scriptwritr.controller.PageController;
 import javafx.application.Application;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.ScrollBar;
-import javafx.scene.control.TextArea;
-import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
-import javafx.scene.input.ScrollEvent;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
-import java.util.Objects;
 
 /**
  * @author Carl Karama
@@ -38,14 +25,14 @@ public class Scriptwritr extends Application {
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/scriptwritr/view/Home.fxml"));
         Parent root = loader.load();
-        HomeController homeController = loader.getController();
+        PageController pageController = loader.getController();
         Scene homeScene = new Scene(root);
         stage.setTitle("Scriptwritr");
         stage.initStyle(StageStyle.UNDECORATED);
         stage.setScene(homeScene);
         stage.show();
 
-        homeController.sceneTextArea.setOnKeyPressed(keyEvent -> {
+        pageController.sceneTextArea.setOnKeyPressed(keyEvent -> {
             System.out.println(keyEvent.getCode().toString());
         });
 
