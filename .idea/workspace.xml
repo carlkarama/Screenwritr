@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +124,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45354185" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -167,6 +173,8 @@
       <workItem from="1656849685342" duration="10752000" />
       <workItem from="1657005589666" duration="10766000" />
       <workItem from="1658566133093" duration="1637000" />
+      <workItem from="1661937952059" duration="3166000" />
+      <workItem from="1661943332341" duration="3068000" />
     </task>
     <servers />
   </component>
