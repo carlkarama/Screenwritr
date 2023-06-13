@@ -1,38 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
 
-<AnchorPane id="AnchorPane" fx:id="sceneAnchorPane" prefHeight="983.0" prefWidth="893.0" stylesheets="@../resource/style/anchorpane.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.scriptwritr.controller.PageController">
-   <children>
-      <ScrollPane fitToHeight="true" layoutX="54.0" layoutY="89.0" minViewportHeight="600.0" prefHeight="${sceneVBox.height}" prefWidth="791.0">
-         <content>
-            <VBox id="VBox" fx:id="sceneVBox" alignment="CENTER" fillWidth="false" prefHeight="1200" prefWidth="798.0" spacing="20.0" styleClass="vboxscene" stylesheets="@../resource/style/vboxscene.css" VBox.vgrow="always">
-               <children>
-                  <TextArea id="TextArea" fx:id="sceneTextArea" maxWidth="600" minHeight="800.0" minWidth="600.0" prefHeight="800" prefWidth="802.0" styleClass="screenplay-text-center-align" stylesheets="@../resource/style/textarea.css" wrapText="true" VBox.vgrow="NEVER">
-                     <font>
-                        <Font name="Courier New Bold" size="13" />
-                     </font>
-                     <opaqueInsets>
-                        <Insets top="10.0" />
-                     </opaqueInsets>
-                     <padding>
-                        <Insets left="10.0" top="10.0" />
-                     </padding>
-                     <VBox.margin>
-                        <Insets bottom="30.0" left="15.0" right="45.0" top="10.0" />
-                     </VBox.margin>
-                  </TextArea>
-               </children>
-            </VBox>
-         </content>
-      </ScrollPane>
-   </children>
-   <opaqueInsets>
-      <Insets />
-   </opaqueInsets>
-</AnchorPane>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="827.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextFlow prefHeight="390.0" prefWidth="550.0" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
