@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/skins/CustomPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scriptwritr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Scriptwritr.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/PageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Establishment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Establishment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Property.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTimeModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTimeModifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Setting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/products/SceneHeadingProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/products/SceneHeadingProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/view/Home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +53,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2AKgctjV7WA0iGaopnwr36IyYFX" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -110,22 +121,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/scriptwritr/model" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.45354185" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "ck-scriptwritr-multi-paging",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.scriptwritr.model" />
@@ -175,6 +185,7 @@
       <workItem from="1658566133093" duration="1637000" />
       <workItem from="1661937952059" duration="3166000" />
       <workItem from="1661943332341" duration="3068000" />
+      <workItem from="1711018895939" duration="494000" />
     </task>
     <servers />
   </component>
