@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b07ac1-530c-4edb-8bcf-e7f487675ee7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/skins/CustomPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scriptwritr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Scriptwritr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/scriptwritr/model/ContentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/Scriptwritr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Establishment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Establishment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Property.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTimeModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/SceneHeadingTimeModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Setting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Setting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/Transition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/products/SceneHeadingProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/model/builder/products/SceneHeadingProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/com/scriptwritr/view/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scriptwritr/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scriptwritr/Scriptwritr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +20,10 @@
       <list>
         <option value="module-info" />
         <option value="FxmlFile" />
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -48,6 +37,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/IdeaProjects/javafx-sdk-17.0.9/lib/javafx.controls.jar!/javafx/scene/control/TextInputControl.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -133,6 +125,7 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -185,7 +178,7 @@
       <workItem from="1658566133093" duration="1637000" />
       <workItem from="1661937952059" duration="3166000" />
       <workItem from="1661943332341" duration="3068000" />
-      <workItem from="1711018895939" duration="494000" />
+      <workItem from="1711018895939" duration="4908000" />
     </task>
     <servers />
   </component>
@@ -205,5 +198,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

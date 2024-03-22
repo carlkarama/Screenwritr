@@ -1,11 +1,9 @@
 package com.scriptwritr;
 
-import com.scriptwritr.controller.PageController;
+import com.scriptwritr.model.ContentType;
 import com.scriptwritr.model.skins.CustomPane;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
@@ -13,16 +11,13 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 /**
  * @author Carl Karama
  */
 public class Scriptwritr extends Application {
-
-    private double xOffset = 0;
-    private double yOffset = 0;
 
     public static void main(String[] args) {
         launch(args);
@@ -69,9 +64,10 @@ public class Scriptwritr extends Application {
         TextArea content = new TextArea();
         content.setPrefHeight(PAGE_HEIGHT); // Set initial rows
         content.setWrapText(true); // Enable text wrapping
-        content.setFont(new Font("Courier New", 12)); // Courier New, 12-point size
+        content.setFont(Font.font("Courier New", FontWeight.BOLD, 12.0)); // Courier New, 12-point size
 
-        System.out.println("Hello");
+        setContentType(ContentType.ACTION_LINE, content);
+
         // Listen for Enter key press within the content TextArea
         content.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.ENTER && !event.isShiftDown()) {
@@ -81,9 +77,11 @@ public class Scriptwritr extends Application {
                     // Create a new page
                     VBox newPage = createPage();
                     page.getChildren().add(newPage);
-                    content.requestFocus(); // Keep focus on the TextArea
+                    newPage.requestFocus(); // Keep focus on the TextArea
                 }
             }
+            System.out.println("Running...");
+            updateContentType(content);
         });
 
         // Show context menu on right-click
@@ -97,6 +95,27 @@ public class Scriptwritr extends Application {
         page.getChildren().add(customPane);
 
         return page;
+    }
+
+    private void setContentType(ContentType contentType, TextArea textArea) {
+        switch (contentType) {
+            case ACTION_LINE:
+                textArea.setStyle("-fx-alignment: center;");
+                break;
+            case DIALOGUE:
+                textArea.setStyle("-fx-indent: 20;");
+                break;
+            case CHARACTER:
+                textArea.setStyle("-fx-alignment: center;");
+                break;
+            case SCENE_HEADER:
+                textArea.setStyle("-fx-alignment: center; -fx-font-weight: bold;");
+                break;
+        }
+    }
+
+    private void updateContentType(TextArea textArea) {
+        setContentType(ContentType.ACTION_LINE, textArea);
     }
 
     private void showContextMenu(TextArea content, MouseEvent e) {
